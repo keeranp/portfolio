@@ -1,0 +1,94 @@
+body{
+    background-color: #282a36;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    color:#f8f8f2;
+    justify-content: start;
+    flex-grow: 2;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.treeNav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px 0 35px;
+    position:relative
+}
+
+.treeNav li::before, .treeNav li::after{
+    content: '';
+    left: -20px;
+    position:absolute;
+    right:auto
+}
+
+.treeNav li::before{
+    border-left:2px solid white;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px
+}
+
+.treeNav{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+}
+
+.treeNav li::after {
+    border-top:2px solid white;
+    height:20px;
+    top:30px;
+    width:50px;
+}
+
+.treeNav>ul>li::before, .treeNav>ul>li::after {
+    border:0;
+}
+
+.treeNav li:last-child::before {
+    height:30px;
+}
+
+.treeNavTitle{
+    font-size: 2em;
+    color:#8be9fd;
+}
+
+.treeStart{
+    margin-left:7em;
+}
+
+.emphasis{
+    color:#8be9fd;
+    transition: all .2s ease-in-out;
+}
+
+.emphasis:hover{
+    color:#8be9fd;
+    font-size: 1.1em;
+}
+
+@media all and (max-width:600px){
+    .treeNav{
+        transform: scale(.5) translateY(-50%);
+    }
+}
