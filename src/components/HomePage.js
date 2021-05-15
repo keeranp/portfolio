@@ -32,7 +32,7 @@ export default function HomePage(props) {
                 <h1>Je suis <span className={styles.emphasis}>Keeran Paheerathan</span>,</h1>
                 <h2>étudiant en génie informatique</h2>
             </section>
-            <Link className={styles.projectsLink} to={'/projects'}>
+            <Link className={styles.projectsLink} to={'/portfolio/projects'}>
                 <div className={styles.arrow}></div>
             </Link>
         </motion.div>
