@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ada0d72c.chunk.css",
+    "main.js": "/portfolio/static/js/main.95baf9b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.95baf9b1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f79ae481.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f79ae481.js.map",
+    "static/js/2.fa2a325b.chunk.js": "/portfolio/static/js/2.fa2a325b.chunk.js",
+    "static/js/2.fa2a325b.chunk.js.map": "/portfolio/static/js/2.fa2a325b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ada0d72c.chunk.css.map": "/portfolio/static/css/main.ada0d72c.chunk.css.map",
+    "static/js/2.fa2a325b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fa2a325b.chunk.js.LICENSE.txt",
+    "static/media/drone.08ea7b7b.jpg": "/portfolio/static/media/drone.08ea7b7b.jpg",
+    "static/media/fuji.9de3ee96.jpg": "/portfolio/static/media/fuji.9de3ee96.jpg",
+    "static/media/fuji_processed.d75eb0bb.gif": "/portfolio/static/media/fuji_processed.d75eb0bb.gif",
+    "static/media/golden-after.d55ee4f0.jpg": "/portfolio/static/media/golden-after.d55ee4f0.jpg",
+    "static/media/golden-before.63f65ab3.jpg": "/portfolio/static/media/golden-before.63f65ab3.jpg",
+    "static/media/labelling.7d65afb3.png": "/portfolio/static/media/labelling.7d65afb3.png",
+    "static/media/logoh3.cae9a35a.jpg": "/portfolio/static/media/logoh3.cae9a35a.jpg",
+    "static/media/masked.15efffc9.png": "/portfolio/static/media/masked.15efffc9.png",
+    "static/media/rgbthermal.b463e8c6.png": "/portfolio/static/media/rgbthermal.b463e8c6.png",
+    "static/media/unity.0cb5f005.png": "/portfolio/static/media/unity.0cb5f005.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f79ae481.js",
+    "static/js/2.fa2a325b.chunk.js",
+    "static/css/main.ada0d72c.chunk.css",
+    "static/js/main.95baf9b1.chunk.js"
+  ]
+}
