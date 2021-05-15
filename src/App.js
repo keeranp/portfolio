@@ -43,22 +43,22 @@ function App() {
 				<Route exact path="/portfolio" component={HomePage}>
 					<HomePage pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path="/projects" component={ProjectPage}>
+				<Route exact path="/portfolio/projects" component={ProjectPage}>
 					<ProjectPage pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/st40' component={StageST40}>
+				<Route exact path='/portfolio/st40' component={StageST40}>
 					<StageST40 pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/utbm' component={UTBM}>
+				<Route exact path='/portfolio/utbm' component={UTBM}>
 					<UTBM pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/projetperso' component={ProjetPerso}>
+				<Route exact path='/portfolio/projetperso' component={ProjetPerso}>
 					<ProjetPerso pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/sejourlondres' component={SejourLondres}>
+				<Route exact path='/portfolio/sejourlondres' component={SejourLondres}>
 					<SejourLondres pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/karate' component={Karate}>
+				<Route exact path='/portfolio/karate' component={Karate}>
 					<Karate pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
 			</Switch>
