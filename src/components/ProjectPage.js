@@ -45,7 +45,7 @@ export default function ProjectPage(props) {
                                 <span>Expérience Professionelle</span>
                                 <ul>
                                     <li>
-                                        <Link to={{ pathname: '/st40' }} className={styles.emphasis}>Stage à Singapour</Link>
+                                        <Link to={{ pathname: '/portfolio/st40' }} className={styles.emphasis}>Stage à Singapour</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -53,7 +53,7 @@ export default function ProjectPage(props) {
                                 <span>Expérience Scolaire</span>
                                 <ul>
                                     <li>
-                                        <Link to={{ pathname: '/utbm' }} className={styles.emphasis}>UTBM Génie Informatique</Link>
+                                        <Link to={{ pathname: '/portfolio/utbm' }} className={styles.emphasis}>UTBM Génie Informatique</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -61,7 +61,7 @@ export default function ProjectPage(props) {
                                 <span>Expérience International</span>
                                 <ul>
                                     <li>
-                                        <Link to={{ pathname: '/sejourlondres' }} className={styles.emphasis}>Séjour à Londres</Link>
+                                        <Link to={{ pathname: '/portfolio/sejourlondres' }} className={styles.emphasis}>Séjour à Londres</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -69,10 +69,10 @@ export default function ProjectPage(props) {
                                 <span>Autres Expérience</span>
                                 <ul>
                                     <li>
-                                        <Link to={{ pathname: '/projetperso' }} className={styles.emphasis}>Projet personnel de développement informatique</Link>
+                                        <Link to={{ pathname: '/portfolio/projetperso' }} className={styles.emphasis}>Projet personnel de développement informatique</Link>
                                     </li>
                                     <li>
-                                        <Link to={{ pathname: '/karate' }} className={styles.emphasis}>Pratique du Karaté</Link>
+                                        <Link to={{ pathname: '/portfolio/karate' }} className={styles.emphasis}>Pratique du Karaté</Link>
                                     </li>
                                 </ul>
                             </li>
