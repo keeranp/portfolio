@@ -1,4 +1,4 @@
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch, useLocation } from 'react-router-dom';
 import './App.css';
 import HomePage from './components/HomePage';
 import ProjectPage from './components/ProjectPage';

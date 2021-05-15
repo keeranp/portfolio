@@ -1,13 +1,15 @@
 .main{
     display: flex;
     height: 100vh;
+    position: fixed;
 }
 
 .container{
-    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .container::-webkit-scrollbar{
@@ -52,8 +54,10 @@
 }
 
 .skills h1{
+    text-align: center;
     font-size: 1.5em;
     margin:0;
+    margin-bottom: 5vh;
 }
 
 .skills ul{
@@ -63,4 +67,102 @@
 
 .skills li{
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.leftImg{
+    display: flex;
+    align-items: space-between;
+    margin-bottom: 5vh;
+}
+
+.rightImg{
+    display: flex;
+    align-items: center;
+}
+
+.leftImg p {
+    margin-left: 2.5vw;
+}
+
+.twoVert{
+    min-width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBottom{
+    display: flex;
+}
+
+.leftBottom div{
+    margin-left: 2.5vw;
+}
+
+.row{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.row .responsive{
+    max-width: 45%;
+}
+
+@media all and (max-width:600px){
+    .main{
+        all: initial;
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .content h1{
+        font-size: 2em;
+        margin-bottom: 5vh;
+    }
+
+    .skills{
+        order: 1;
+        background: none;
+        color: #f8f8f2;
+    }
+
+    .skills h1{
+        margin: 0;
+    }
+
+    .container{
+        order:2;
+        overflow-x: auto;
+    }
+
+    .leftImg{
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+
+    .rightImg{
+        flex-direction: column;
+    }
+
+    .leftBottom{
+        flex-direction: column;
+    }
+
+    .leftBottom div{
+        margin-left: 0;
+    }
+
+    .leftImg p {
+        margin-left:0;
+    }
 }

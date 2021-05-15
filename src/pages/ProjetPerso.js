@@ -25,10 +25,9 @@ export default function ProjetPerso(props) {
             exit='right'
             variants={props.pageVariants}
             transition={props.pageTransition}
-            style={pageStyle}
         >
+        <Navbar></Navbar>
             <section className={styles.container}>
-                <Navbar></Navbar>
                 <section className={styles.content}>
                     <h1>Projet personnel de développement informatique</h1>
                     <div className={styles.paragraph}>
@@ -39,21 +38,23 @@ export default function ProjetPerso(props) {
                             Pour chaque nouveau triangle insérer, il faut vérifier si la nouvelle image ressemble plus à l'image à reproduire.
                             Faire ce programme ma permis d’apprendre à <span style={emphasis}>calculer la ressemblance entre deux images</span> pour pouvoir comparer l’image de base et la nouvelle image.
                         </p>
-                        <div style={{display:'flex', justifyContent:'space-around', marginBottom:'5vh'}}>
-                            <img src={bridgebefore} width='450' height='300'/>
-                            <img src={bridgeAfter} width='450' height='300'/>
+                        <div className={styles.row}>
+                            <img src={bridgebefore} className={styles.responsive}/>
+                            <img src={bridgeAfter} className={styles.responsive}/>
                         </div>
-                        <div style={{display:'flex', justifyContent:'space-around'}}>
-                            <img src={fujiBefore} width='450' height='300'/>
-                            <img src={fujiAfter} width='450' height='300'/>
+                        <div className={styles.row}>
+                            <img src={fujiBefore} className={styles.responsive}/>
+                            <img src={fujiAfter} className={styles.responsive}/>
                         </div>
                     </div>
                     <div className={styles.paragraph}>
                         <h2>Création de jeu video</h2>
                         <p>
-                            J’ai créé quelque jeux vidéo avec Unity comme par exemple un jeu de type Platformer.
+                            J’ai appris à utiliser <span style={emphasis}>Unity</span> en essayant de créer quelques jeux vidéos comme par exemple un jeu de type Platformer.
                         </p>
-                        <img src={unity} width='480' height='270'/>
+                        <div style={{display:'flex', justifyContent:'center'}}>
+                            <img src={unity} className={styles.responsive} style={{maxWidth:'70%'}}/>
+                        </div>
                     </div>
                 </section>
             </section>

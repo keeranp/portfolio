@@ -25,18 +25,17 @@ export default function StageST40(props) {
             exit='right'
             variants={props.pageVariants}
             transition={props.pageTransition}
-            style={pageStyle}
         >
+            <Navbar></Navbar>
             <section className={styles.container}>
-                <Navbar></Navbar>
                 <section className={styles.content}>
                     <h1>Stage à Singapour</h1>
-                    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '5vh' }}>
-                        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '20%' }}>
-                            <img src={h3Logo} />
-                            <img src={drone} />
+                    <div className={styles.leftImg}>
+                        <div className={styles.twoVert}>
+                            <img src={h3Logo} className={styles.responsive} />
+                            <img src={drone} className={styles.responsive}/>
                         </div>
-                        <p style={{ marginLeft: '5vh' }}>
+                        <p>
                             J’ai réalisé mon stage de 4ème année à H3 Dynamics. H3 Dynamics est un groupe singapourien leader
                             dans le domaine de la robotique cloud et des drones entièrement autonome. Cette entreprise
                             propose notamment un service d’inspection de bâtiments autonomes. J’ai rejoint le département
@@ -49,28 +48,28 @@ export default function StageST40(props) {
                         <p style={{ margin: 0 }}>
                             J’ai réaliser un programme en <span style={emphasis}>Java</span> permettant de récupérer les métadonnées d’image prisent par des drones pour les stocker dans un fichier <span style={emphasis}>JSON</span>.
                         </p>
-                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <div className={styles.rightImg}>
                             <p style={{ margin: 0 }}>
                                 Ces drones prennent des images normales et des images thermiques. Ces images ne sont pas triées et donc on ne peut pas savoir quelles images normales correspondent à leurs images thermiques. Avec les métadonnées de ces images, j’ai rajouté au programme <span style={emphasis}>Java</span> une fonctionnalité permettant de regrouper les images « couleur » avec les images thermiques qui leurs correspondent.
                             </p>
-                            <img src={rgbThermal} />
+                            <img src={rgbThermal} className={styles.responsive} />
                         </div>
                     </div>
                     <div className={styles.paragraph}>
                     <h2>Masquage automatique de fenêtres</h2>
-                        <div style={{ display: 'flex' }}>
-                            <img src={labelling} />
-                            <div style={{ marginLeft: '5vh' }}>
+                        <div className={styles.leftBottom}>
+                            <img src={labelling} className={styles.responsive}/>
+                            <div>
                                 <p>
                                     Le but d’un de mes projets était de pouvoir masquer automatiquement les fenêtres d’un bâtiment pour pouvoir respecter la vie privée de ses résidents.
                                     J’ai tout d’abord écrit un programme permettant de détecter automatiquement des fenêtres sur une image en utilisant la technologie de la <span style={emphasis}>vision par ordinateur</span>. Ensuite il ne restait plus qu’à coder la partie qui dessine automatiquement un rectangle noir sur ces fenêtres.
                                 </p>
-                                <img src={masked}/>
+                                <img src={masked} className={styles.responsive}/>
                             </div>
                         </div>
                     </div>
                     <div className={styles.paragraph}>
-                        <h2>Titre</h2>
+                        <h2>Les projets le long du stage</h2>
                         <p>
                             Pendant le stage, j’ai créé des <span style={emphasis}>API REST</span> avec <span style={emphasis}>Node.JS</span> et <span style={emphasis}>expliquer leurs fontionnement</span> pour que mes collègues puissent utiliser facilement ces programmes créé précédemment.
                             <br />J’ai également écrit des script <span style={emphasis}>Python</span> pour pouvoir faire du Data Cleaning sur des fichiers <span style={emphasis}>JSON</span>.

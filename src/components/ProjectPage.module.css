@@ -91,4 +91,9 @@ body{
     .treeNav{
         transform: scale(.5) translateY(-50%);
     }
+
+    .treeStart{
+        margin-left: 1em;
+        width: 100%;
+    }
 }

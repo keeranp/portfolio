@@ -20,15 +20,17 @@ export default function Karate(props) {
             exit='right'
             variants={props.pageVariants}
             transition={props.pageTransition}
-            style={pageStyle}
         >
+            
+            <Navbar></Navbar>
             <section className={styles.container}>
-                <Navbar></Navbar>
                 <section className={styles.content}>
                 <h1>Pratique du Karaté</h1>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent:'space-between', marginBottom: '5vh' }}>
                         <p>
-                        J’ai pratiqué le karaté de mes 7 à 11 ans. J’ai aussi participé à quelques tournois. Cette pratique m’a permis d’être plus discipliné et d’améliorer ma capacité de concentration pour pouvoir apprendre les différents mouvements et techniques. Cela m’a aussi appris le respect. La base des relations et des arts martiaux tourne autour du respect de base des instructeurs et des autres élèves.
+                            J’ai pratiqué le karaté de mes 7 à 11 ans. Pendant ces années, j'ai aussi eu l'occasion de participé à quelques tournois. Ceux-ci m'ont permis d'apprendre à rester <span style={emphasis}>maître de soi</span> et ainsi de pouvoir être concentrer durant un match.<br/>
+                            Cette pratique m’a permis d’être plus discipliné et d’améliorer ma capacité de concentration pour pouvoir apprendre et utiliser les différents mouvements et techniques correctement. <br/>
+                            Cela m’a aussi appris le respect car la base des relations et des arts martiaux tourne autour du respect de base des instructeurs et des autres élèves.
                         </p>
                     </div>
                 </section>

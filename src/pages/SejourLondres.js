@@ -22,8 +22,8 @@ export default function SejourLondres(props) {
             transition={props.pageTransition}
             style={pageStyle}
         >
+        <Navbar></Navbar>
             <section className={styles.container}>
-                <Navbar></Navbar>
                 <section className={styles.content}>
                 <h1>Séjour à Londres</h1>
                     <div style={{ display: 'flex', alignItems: 'center', marginBottom: '5vh' }}>
