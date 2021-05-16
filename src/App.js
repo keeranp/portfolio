@@ -40,7 +40,7 @@ function App() {
 	return (
 		<AnimatePresence>
 			<Switch location={location} key={location.pathname}>
-				<Route exact path="/portfolio" component={HomePage}>
+				<Route exact path="/portfolio/" component={HomePage}>
 					<HomePage pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
 				<Route exact path="/portfolio/projects" component={ProjectPage}>

@@ -43,9 +43,10 @@ export default function UTBM(props) {
                     <div className={styles.paragraph}>
                         <h2>Projet Java en LO43</h2>
                         <p>
-                            Le but du projet est de créer une visionneuses d’images en utilisant la <span style={emphasis}>Programmation Orientée Object avec Java</span>.<br/>
-                            Diverses fonctionnalités permettent de naviguer et d’examiner le contenu des images, une à une ou en groupe, et
-                            de zoomer.
+                            Le but du projet est de créer une visionneuse d’images en utilisant la <span style={emphasis}>Programmation Orientée Objet avec Java</span>.<br/>
+                            J'ai implémenté diverses fonctionnalités permettant de naviguer et d’examiner le contenu des images, une à une ou en groupe, et
+                            de zoomer en utilisant la <span style={emphasis}>Programmation Orientée Objet</span>. <br/>
+                            De plus j'ai ajouté une fonctionnalité permettant d'appliquer des filtres aux images.
                         </p>
                         <div style={{display:'flex',justifyContent:'space-around'}}>
                             <img src={lo43} className={styles.responsive} style={{maxWidth:'70%'}}/>

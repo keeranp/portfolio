@@ -46,11 +46,11 @@ export default function StageST40(props) {
                     <div className={styles.paragraph}>
                         <h2>Extraction de métadonnées</h2>
                         <p style={{ margin: 0 }}>
-                            J’ai réaliser un programme en <span style={emphasis}>Java</span> permettant de récupérer les métadonnées d’image prisent par des drones pour les stocker dans un fichier <span style={emphasis}>JSON</span>.
+                            J’ai réalisé un programme en <span style={emphasis}>Java</span> permettant de récupérer les métadonnées d’image prises par des drones pour les stocker dans un fichier <span style={emphasis}>JSON</span>.
                         </p>
                         <div className={styles.rightImg}>
                             <p style={{ margin: 0 }}>
-                                Ces drones prennent des images normales et des images thermiques. Ces images ne sont pas triées et donc on ne peut pas savoir quelles images normales correspondent à leurs images thermiques. Avec les métadonnées de ces images, j’ai rajouté au programme <span style={emphasis}>Java</span> une fonctionnalité permettant de regrouper les images « couleur » avec les images thermiques qui leurs correspondent.
+                                Ces drones prennent des images normales et des images thermiques. Ces images ne sont pas triées et donc on ne peut pas savoir quelles images normales correspondent à leurs images thermiques. Avec les métadonnées de ces images, j’ai rajouté au programme <span style={emphasis}>Java</span> une fonctionnalité permettant de regrouper les images « couleur » avec les images thermiques qui leur correspondent.
                             </p>
                             <img src={rgbThermal} className={styles.responsive} />
                         </div>
@@ -71,15 +71,15 @@ export default function StageST40(props) {
                     <div className={styles.paragraph}>
                         <h2>Les projets le long du stage</h2>
                         <p>
-                            Pendant le stage, j’ai créé des <span style={emphasis}>API REST</span> avec <span style={emphasis}>Node.JS</span> et <span style={emphasis}>expliquer leurs fontionnement</span> pour que mes collègues puissent utiliser facilement ces programmes créé précédemment.
-                            <br />J’ai également écrit des script <span style={emphasis}>Python</span> pour pouvoir faire du Data Cleaning sur des fichiers <span style={emphasis}>JSON</span>.
-                            <br />Pour la plupart des projets que j’ai réalisé, la plupart du temps il n’y avait pas de ressource pouvant m’aider sur internet comme par exemple avec le regroupement d'image normal et thermique. Ces projets étaient plus difficile mais cela m’a permis d’améliorer ma capacité à <span style={emphasis}>résoudre des problèmes</span>.
+                            Pendant le stage, j’ai créé des <span style={emphasis}>API REST</span> avec <span style={emphasis}>Node.JS</span> et <span style={emphasis}>expliquer leurs fontionnements</span> pour que mes collègues puissent utiliser facilement ces programmes créés précédemment.
+                            <br />J’ai également écrit des scripts <span style={emphasis}>Python</span> pour pouvoir faire du Data Cleaning sur des fichiers <span style={emphasis}>JSON</span>.
+                            <br />Pour la plupart des projets que j’ai réalisés, la plupart du temps il n’y avait pas de ressource pouvant m’aider sur internet comme par exemple avec le regroupement d'image normale et thermique. Ces projets étaient plus difficiles mais cela m’a permis d’améliorer ma capacité à <span style={emphasis}>résoudre des problèmes</span>.
                         </p>
                     </div>
                     <div className={styles.paragraph}>
                         <h2>Test et déboguage</h2>
                         <p style={{margin:0}}>
-                            Durant ce stage, j’ai eu a <span style={emphasis}>tester des logiciels</span> réaliser par d’autre ingénieur. Je devais tester toutes les fonctionnalités de ces logiciels et trouver les différents bugs et si possible la raison de ceux-ci.
+                            Durant ce stage, j’ai eu à <span style={emphasis}>tester des logiciels</span> réaliser par d’autres ingénieurs. Je devais tester toutes les fonctionnalités de ces logiciels et trouver les différents bugs et si possible la raison de ceux-ci.
                         </p>
                         <p style={{margin:0}}>
                             J’ai appris à <span style={emphasis}>exposer</span> ces bugs en détail à l’<span style={emphasis}>oral</span> à mon tuteur de stage et à l’<span style={emphasis}>écrit</span> avec des explications et des captures vidéos.

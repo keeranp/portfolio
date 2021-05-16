@@ -35,7 +35,7 @@ export default function ProjetPerso(props) {
                         <p>
                             L'art génératif est une création artistique généralement numérique se basant sur des algorithmes pour concevoir des œuvres se générant d'elles-mêmes et/ou non déterminées à l'avance.<br/>
                             Pour acquérir plus de connaissances dans le traitement d’images j’ai créé un programme en <span style={emphasis}>Python</span> permettant de reproduire une image en superposant plusieurs triangles.<br/>
-                            Pour chaque nouveau triangle insérer, il faut vérifier si la nouvelle image ressemble plus à l'image à reproduire.
+                            Pour chaque nouveau triangle inséré, il faut vérifier si la nouvelle image ressemble plus à l'image à reproduire.
                             Faire ce programme ma permis d’apprendre à <span style={emphasis}>calculer la ressemblance entre deux images</span> pour pouvoir comparer l’image de base et la nouvelle image.
                         </p>
                         <div className={styles.row}>
@@ -50,7 +50,7 @@ export default function ProjetPerso(props) {
                     <div className={styles.paragraph}>
                         <h2>Création de jeu video</h2>
                         <p>
-                            J’ai appris à utiliser <span style={emphasis}>Unity</span> en essayant de créer quelques jeux vidéos comme par exemple un jeu de type Platformer.
+                            J’ai appris à utiliser <span style={emphasis}>Unity</span> en essayant de créer quelques jeux vidéo comme par exemple un jeu de type Platformer.
                         </p>
                         <div style={{display:'flex', justifyContent:'center'}}>
                             <img src={unity} className={styles.responsive} style={{maxWidth:'70%'}}/>
