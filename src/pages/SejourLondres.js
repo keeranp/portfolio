@@ -20,7 +20,6 @@ export default function SejourLondres(props) {
             exit='right'
             variants={props.pageVariants}
             transition={props.pageTransition}
-            style={pageStyle}
         >
         <Navbar></Navbar>
             <section className={styles.container}>
