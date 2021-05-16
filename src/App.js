@@ -40,25 +40,25 @@ function App() {
 	return (
 		<AnimatePresence>
 			<Switch location={location} key={location.pathname}>
-				<Route exact path="/portfolio/" component={HomePage}>
+				<Route exact path="/" component={HomePage}>
 					<HomePage pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path="/portfolio/projects" component={ProjectPage}>
+				<Route exact path="/projects" component={ProjectPage}>
 					<ProjectPage pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/portfolio/st40' component={StageST40}>
+				<Route exact path='/st40' component={StageST40}>
 					<StageST40 pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/portfolio/utbm' component={UTBM}>
+				<Route exact path='/utbm' component={UTBM}>
 					<UTBM pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/portfolio/projetperso' component={ProjetPerso}>
+				<Route exact path='/projetperso' component={ProjetPerso}>
 					<ProjetPerso pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/portfolio/sejourlondres' component={SejourLondres}>
+				<Route exact path='/sejourlondres' component={SejourLondres}>
 					<SejourLondres pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
-				<Route exact path='/portfolio/karate' component={Karate}>
+				<Route exact path='/karate' component={Karate}>
 					<Karate pageVariants={pageVariants} pageTransition={pageTransition}/>
 				</Route>
 			</Switch>
