@@ -25,14 +25,14 @@ export default function Navbar(props) {
                             <vsc.VscClose color='white'/>
                         </Link>
                     </li>
-                    <li className='nav-item'><Link to={{pathname:'/portfolio', state:{prevLocation:location.pathname}}}
+                    <li className='nav-item'><Link to={{pathname:'/', state:{prevLocation:location.pathname}}}
                     onClick={()=>{
                         if(props.changeAnimation){
                             props.changeAnimation()
                         }
                     }
                     }>Home</Link></li>
-                    <li className='nav-item'><Link to={{pathname:'/portfolio/projects', state:{prevLocation:location.pathname}}}>Mes Expériences</Link></li>
+                    <li className='nav-item'><Link to={{pathname:'/projects', state:{prevLocation:location.pathname}}}>Mes Expériences</Link></li>
                 </ul>
             </nav>
             <div onClick={showSidebar} className={sidebar ? 'overlay active':'overlay'}></div>
