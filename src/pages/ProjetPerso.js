@@ -62,7 +62,7 @@ export default function ProjetPerso(props) {
                 <h1>Compétences acquises</h1>
                 <ul>
                     <li>Utiliser Unity</li>
-                    <li>Comparer deux images entre elles</li>
+                    <li>Comparer algorithmiquement deux images entre elles</li>
                 </ul>
             </section>
         </motion.div>

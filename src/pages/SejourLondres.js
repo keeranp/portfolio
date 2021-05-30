@@ -37,9 +37,9 @@ export default function SejourLondres(props) {
             <section className={styles.skills}>
                 <h1>Compétences acquises</h1>
                 <ul>
-                    <li>Anglais: niveau C1</li>
-                    <li>Adaptabilté</li>
-                    <li>Autonomie</li>
+                    <li>Communiquer en anglais avec un niveau C1</li>
+                    <li>S'adapter à de nouvelles situations</li>
+                    <li>Agir avec autonomie</li>
                 </ul>
             </section>
         </motion.div>

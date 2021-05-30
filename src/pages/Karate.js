@@ -38,7 +38,7 @@ export default function Karate(props) {
             <section className={styles.skills}>
                 <h1>Compétences acquises</h1>
                 <ul>
-                    <li>Maîtrise de soi</li>
+                    <li>Contrôler ses émotions</li>
                 </ul>
             </section>
         </motion.div>

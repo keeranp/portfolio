@@ -58,7 +58,7 @@ export default function UTBM(props) {
                 <h1>Compétences acquises</h1>
                 <ul>
                     <li>Utiliser Blender</li>
-                    <li>Programmation orientée objet</li>
+                    <li>Programmer en utilisant la programmation orientée objet</li>
                 </ul>
             </section>
         </motion.div>

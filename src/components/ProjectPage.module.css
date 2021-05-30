@@ -14,9 +14,8 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    color:#f8f8f2;
-    justify-content: start;
-    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects{
@@ -85,6 +84,47 @@ body{
 .emphasis:hover{
     color:#8be9fd;
     font-size: 1.1em;
+}
+
+.skills{
+    display: flex;
+    width: 75vw;
+    margin-top: 5vh;
+    background-color: rgb(59, 67, 90);
+    border-radius: 1em 1em 0 0;
+    color: #f8f8f2;
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills h2{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    font-size: 2em;
+    color: #8be9fd;
+}
+
+.left{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+    text-align: center;
+    border-right: solid rgba(255, 255, 255, 0.082) 1px;
+}
+
+.right{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+    text-align: center;
 }
 
 @media all and (max-width:600px){
