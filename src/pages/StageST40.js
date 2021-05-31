@@ -55,7 +55,7 @@ export default function StageST40(props) {
                         </p>
                         <div className={styles.rightImg}>
                             <p style={{ margin: 0 }}>
-                                Ces drones prennent des images normales et des images thermiques. Ces images ne sont pas triées et donc on ne peut pas savoir quelles images normales correspondent à leurs images thermiques. Avec les métadonnées de ces images, j’ai rajouté au programme <span style={emphasis}>Java</span> une fonctionnalité permettant de regrouper les images « couleur » avec les images thermiques qui leur correspondent.
+                                Ces drones prennent des <span style={emphasis}>images normales et des images thermiques</span>. Ces images ne sont pas triées et donc on ne peut pas savoir quelles images normales correspondent à leurs images thermiques. Avec les métadonnées de ces images, j’ai rajouté au programme <span style={emphasis}>Java</span> une fonctionnalité permettant de regrouper les images « couleur » avec les images thermiques qui leur correspondent.
                             </p>
                             <img src={rgbThermal} className={styles.responsive} />
                         </div>
@@ -98,7 +98,7 @@ export default function StageST40(props) {
                             Singapour est une cité-État multiculturelle puisqu’il y a trois ethnies différentes qui y vivent (Chinois, Malais et Tamoul). La langue qui y est la plus parler est l’anglais. L’anglais a été choisie pour fédérer ces communautés. Ainsi, la langue de travail est l’anglais. J’avais déjà une bonne connaissance de l’<span style={emphasis}>anglais</span> mais durant ce stage j’ai pu acquérir une <span style={emphasis}>connaissance pratique</span> de celle-ci. 
                         </p>
                         <p style={{margin:0}}>
-                            Durant ce stage j’ai appris à m’<span style={emphasis}>adapter à une nouvelle culture</span> en travaillant avec des personnes ayant des cultures différentes. Travailler avec ces personnes m’a permis d’en apprendre plus sur le travail d'équipe et comment interagir avec celles-ci.
+                            Durant ce stage j’ai appris à m’<span style={emphasis}>adapter à une nouvelle culture</span> en travaillant avec des personnes ayant des cultures différentes. Travailler avec ces personnes m’a permis d’en apprendre plus sur le <span style={emphasis}>travail d'équipe</span> et comment interagir avec celles-ci.
                         </p>
                     </div>
                 </section>
