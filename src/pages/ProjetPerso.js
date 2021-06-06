@@ -46,6 +46,7 @@ export default function ProjetPerso(props) {
                             <img src={fujiBefore} className={styles.responsive}/>
                             <img src={fujiAfter} className={styles.responsive}/>
                         </div>
+                        <p className={styles.link}>Code Source: <a  href="https://github.com/keeranp/triangle-filter">github.com/keeranp/triangle-filter</a></p>
                     </div>
                     <div className={styles.paragraph}>
                         <h2>Création de jeu video</h2>

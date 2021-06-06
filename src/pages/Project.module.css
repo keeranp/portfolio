@@ -28,6 +28,21 @@
     line-height: 1.5;
 }
 
+.link{
+    color: #8be9fd;
+}
+
+.link a{
+    text-decoration: none;
+    color: #f8f8f2;
+    transition: all .25s;
+}
+
+.link a:hover{
+    color: #8be9fd;
+    font-size: 1.1em;
+}
+
 .proof{
     display: flex;
     flex-direction: column;
